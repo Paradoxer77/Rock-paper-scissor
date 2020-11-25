@@ -2,6 +2,8 @@
   --blue: #00bfff ;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -9,6 +11,7 @@
 body {
   background-color: black;
   color: var(--blue);
+  font-family: 'Texturina', serif;
 }
 
 main {

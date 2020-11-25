@@ -16,29 +16,29 @@
     <h1 class="head">Rock Paper Scissor</h1>
 
     <div class="flex-container buttons">
-      <button class="option-button" id="rock">Rock</button>
-      <button class="option-button" id="paper">Paper</button>
-      <button class="option-button" id="scissor">Scissor</button>
+      <button class="option-button" id="rock" value="rock">Rock</button>
+      <button class="option-button" id="paper" value="paper">Paper</button>
+      <button class="option-button" id="scissor" value="scissor">Scissor</button>
     </div>
 
     <hr>
 
     <div class="flex-container score-board">
       <div class="score">
-        <span class="score-text">Player</span>
-        <span class="score-text score-value">0</span>
+        <span class="score-text" id="player-name">Player</span>
+        <span class="score-text score-value" id="p-score">0</span>
       </div>
 
 
       <div class="score">
         <span class="score-text">Computer</span>
-        <span class="score-text score-value">0</span>
+        <span class="score-text score-value" id="c-score">0</span>
       </div>
     </div>
 
     <hr>
 
-    <div class="winner">
+    <div class="winner" id="win-info">
       Press one of the buttons to start the game
     </div>
 
